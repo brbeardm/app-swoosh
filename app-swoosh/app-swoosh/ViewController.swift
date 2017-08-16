@@ -17,9 +17,9 @@ class ViewController: UIViewController {
    
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    // this makes the BACK BUTTON arrow work
+    @IBAction func unwindFromSkillVC(unwindSeque: UIStoryboardSegue) {
+        
     }
 
 
